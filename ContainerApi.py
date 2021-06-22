@@ -34,5 +34,6 @@ conn.close()
 
 
 
-print(content)
+print("VISUALISATION DATA:\n\n",
+      content)
 quit()
