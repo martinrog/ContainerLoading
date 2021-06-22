@@ -1,11 +1,8 @@
 class Costs:
 
-    def __init__(self,shippingPrice):
+    def __init__(self,shippingCosts):
 
-        self.shippingCosts = float(input("What are the estimated total costs of the shipment? EUROS: "))
+        self.shippingCosts = shippingCosts
 
-    def getPrice(self):
+    def getCosts(self):
         return self.shippingCosts
-
-    def calculatePrice(self):
-        pass
