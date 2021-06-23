@@ -1,10 +1,13 @@
 class Container:
-    def __init__(self, lengteC, breedteC, hoogteC):
+    """Container class with three entities that describes the measurents of the container"""
 
+    def __init__(self, lengteC, breedteC, hoogteC):
         self.lengteC = lengteC
         self.breedteC = breedteC
         self.hoogteC = hoogteC
 
+
+    """Functions to get the measurements and to calculate the volume"""
     def getLengteC(self):
         return self.lengteC
 

@@ -3,9 +3,12 @@ import urllib
 import json
 from main import *
 
+"""Python file that contains the setup of the API, for the visualisation of the container loading"""
 
+#connection setup
 conn = http.client.HTTPConnection(host='eu.api.3dbinpacking.com', port=80)
 
+#data input
 data = {
     "bins": [{"w": container.getBreedteC(), "h": container.getHoogteC(), "d": container.getLengteC(), "max_wg": 0, "id": "Container"}],
 
@@ -30,6 +33,8 @@ headers = {"Content-type": "application/x-www-form-urlencoded",
            "Accept": "text/plain"}
 conn.request("POST", "/packer/pack", params, headers)
 content = conn.getresponse().read()
+
+#connection closed
 conn.close()
 
 
