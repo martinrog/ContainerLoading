@@ -21,8 +21,6 @@ containerCosts = Costs(float(input("What are the estimated costs for shipping th
 
 #all the different products that will be shipped, are made here as an object
 fitnessMat1 = Box(0.63,0.2,0.2,"Blue")
-fitnessMat2 = Box(0.63,0.2,0.2,"Black")
-fitnessMat3 = Box(0.63,0.2,0.2,"Purple/Pink")
 fitnessBankje = Box(1.23,0.32,0.18,"Black/Red")
 flessen = Box(0.77,0.395,0.295,"Black")
 voetballen = Box(0.6,0.4,0.4,"default")
