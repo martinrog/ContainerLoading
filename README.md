@@ -10,3 +10,5 @@ To get the desired output, only the “main” file has to be runned and then fi
 The output of the program provides all the information needed. To see the visualization, paste 
 the URL next to “image_complete” into the search bar of your browser. To see an intermediate 
 step, paste the URL next to "image_sbs" into the search bar of your browser.
+
+Measurements: Metric (meters)
